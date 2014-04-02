@@ -51,7 +51,7 @@ public class MarkedBuilder {
     /**
      * Set the prefix for code block classes. Default: lang-
      */
-    private String langPrefix = "\"lang-\"";
+    private String langPrefix = "lang-";
 
     /**
      * Constructor.
@@ -95,7 +95,7 @@ public class MarkedBuilder {
     }
 
     public MarkedBuilder langPrefix(String langPrefix) {
-        this.langPrefix = "\"" + langPrefix + "\"";
+        this.langPrefix = langPrefix;
         return this;
     }
 
